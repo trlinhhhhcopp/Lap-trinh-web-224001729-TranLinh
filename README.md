@@ -1,3 +1,38 @@
+# TRƯỜNG ĐẠI HỌC THỦ ĐÔ HÀ NỘI
+### KHOA: TOÁN-CNTT · HỌC PHẦN: LẬP TRÌNH WEB & ỨNG DỤNG
+---
+
+## 👤 THÔNG TIN SINH VIÊN
+* **Họ và tên:** **Trần Thục Linh**
+* **Mã sinh viên:** **224001729**
+* **Lớp:** **Toán Ứng Dụng D2024** (Khóa tuyển sinh: D2024 · Niên khóa: 2024–2028)
+* **Khoa:** **Khoa: Toán-CNTT**
+* **Email sinh viên trường:** `224001729@daihocthudo.edu.vn`
+* **Nhóm Bài tập lớn:** **Nhóm 1** (Chủ đề 9: *Hệ thống Tiếp nhận & Xử lý Yêu cầu Hỗ trợ CNTT Trực tuyến - Helpdesk Online Đại học Thủ Đô Hà Nội*)
+* **Phân hệ phụ trách độc quyền:** **User Management & Auth Security** (Xác thực & Bảo mật tài khoản)
+  * **Model phụ trách:** `User.php` (bảng `users`), `PasswordReset.php` (bảng `password_resets`)
+  * **Nhiệm vụ:** Xác thực Bcrypt, cơ chế khóa mềm 30 phút chống Brute-force, khóa cứng kỷ luật thôi học (`lock_reason = 'expelled'`), tự phục vụ quên mật khẩu qua Email (SSPR) hiệu lực 15 phút, tiếp nhận Guest Ticket tra cứu PIN.
+
+---
+
+## 📑 MỤC LỤC BÀI TẬP CÁC BUỔI THEO TIẾN ĐỘ HỌC PHẦN
+
+| Buổi | Tên Bài tập & Nội dung thực hành | Thư mục & Đường dẫn chi tiết | Trạng thái |
+|:---:|---|---|:---:|
+| **Buổi 1** | Cấu trúc thư mục chuẩn, `index.php` và `about.php` | [`Buoi1/README.md`](Buoi1/README.md) | ✅ Hoàn thành |
+| **Buổi 2** | Lập trình PHP Cơ bản: Hóa đơn, Bảng điểm, Xếp loại học lực | [`Buoi2/README.md`](Buoi2/README.md) (BT2.7, BT2.8, BT2.9) | ✅ Hoàn thành |
+| **Buổi 3** | **Thiết kế CSDL MySQL & Truy vấn SQL (Phân hệ User Management & Auth)** | [`Buoi3/README.md`](Buoi3/README.md) | 🌟 Hoàn thành xuất sắc |
+
+> 📌 **Chi tiết Bài tập Buổi 3 (Bài 4 slide: Thiết kế CSDL & SQL) của cá nhân:**
+> * Sơ đồ ERD & Đặc tả dữ liệu: [`Buoi3/erd_user_management.md`](Buoi3/erd_user_management.md)
+> * Tập tin DDL tạo bảng: [`Buoi3/schema_user_auth.sql`](Buoi3/schema_user_auth.sql)
+> * Dữ liệu Seed mẫu tiếng Việt: [`Buoi3/seed_user_auth.sql`](Buoi3/seed_user_auth.sql)
+> * 6 câu truy vấn SELECT thực chiến: [`Buoi3/queries_user_auth.sql`](Buoi3/queries_user_auth.sql)
+> * Giao diện xem trực quan HTML: [`Buoi3/index.html`](Buoi3/index.html)
+> * Script kiểm thử tự động một lệnh: [`Buoi3/run_demo.php`](Buoi3/run_demo.php) (`php Buoi3/run_demo.php`)
+
+---
+
 # I. PHÂN TẦNG PHẠM VI (P0 / P1 / P2) & VAI TRÒ NGƯỜI DÙNG
 
 ## 1. Phân tầng phạm vi thực hiện theo 10 buổi học

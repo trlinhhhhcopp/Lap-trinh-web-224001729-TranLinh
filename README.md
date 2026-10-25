@@ -21,7 +21,7 @@
 |:---:|---|---|:---:|
 | **Buổi 1** | Cấu trúc thư mục chuẩn, `index.php` và `about.php` | [`Buoi1/README.md`](Buoi1/README.md) | ✅ Hoàn thành |
 | **Buổi 2** | Lập trình PHP Cơ bản: Hóa đơn, Bảng điểm, Xếp loại học lực | [`Buoi2/README.md`](Buoi2/README.md) (BT2.7, BT2.8, BT2.9) | ✅ Hoàn thành |
-| **Buổi 3** | **Thiết kế CSDL MySQL & Truy vấn SQL (Phân hệ User Management & Auth)** | [`Buoi3/README.md`](Buoi3/README.md) | 🌟 Hoàn thành xuất sắc |
+| **Buổi 3** | **Thiết kế CSDL MySQL & Truy vấn SQL (Phân hệ User Management & Auth)** | [`Buoi3/README.md`](Buoi3/README.md) | 🌟 Hoàn thành |
 
 > 📌 **Chi tiết Bài tập Buổi 3 (Bài 4 slide: Thiết kế CSDL & SQL) của cá nhân:**
 > * Sơ đồ ERD & Đặc tả dữ liệu: [`Buoi3/erd_user_management.md`](Buoi3/erd_user_management.md)
